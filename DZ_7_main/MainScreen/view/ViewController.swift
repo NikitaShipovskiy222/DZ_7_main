@@ -58,7 +58,4 @@ extension ViewController: UITableViewDataSource {
 
 //MARK: - Delegate
 extension ViewController: UITableViewDelegate {
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        view.frame.width + 50
-    }
 }
